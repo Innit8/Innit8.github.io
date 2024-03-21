@@ -1,4 +1,4 @@
-<html><head><link rel="shortcut icon" type="image/x-icon" href="icon.ico" /><title>OCDC</title></head><body bgcolor="000000"><img src="TBag.gif" align="left"><img src="TBag.gif" align="right"><center><audio autoplay controls>  <source src="music.mp3" type="audio/mpeg" /></audio></center><big><big><big><big><big><center><b><font color="ff0000">Welcome to</center></font></b></big></big></big></big></big><H1><big><big><big><big><big><center><b><font color="ff0000">OCDC</center></font></b></big></big></big></big></big></H1><big><big><big><big><big><center><b><font color="ff0000">Gaming</center></font></b></big></big></big></big></big><br><center><img src="OCDC.png"></center><br><br><center><b><big><big><a href="MemberList.htm"><font color="ff0000">Member List</font></a></big></big></b></center><br><center><b><big><big><a href="Gallery.htm"><font color="ff0000">Gallery</font></a></big></big></b></center><br><center><b><big><big><a href="Announcements.htm"><font color="ff0000">Announcements</font></a></big></big></b></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p><center><font color="ff0000">Time:</font><form name="d"><input type="text" size="8" name="d2" style="background-color: #000000; color: #FF0000"></form><font color="ff0000">TBags:</font><form name="bag"><input type="text" size="8" name="bag" style="background-color: #000000; color: #FF0000"></form></center><script>    
+<html><head><link rel="shortcut icon" type="image/x-icon" href="icon.ico" /><title>OCDC</title></head><body bgcolor="000000"><img src="TBag.gif" align="left"><img src="TBag.gif" align="right"><center><audio autoplay controls>  <source src="music.mp3" type="audio/mpeg" /></audio></center><big><big><big><big><big><center><b><font color="ff0000">Welcome to</center></font></b></big></big></big></big></big><H1><big><big><big><big><big><center><b><font color="ff0000">OCDC</center></font></b></big></big></big></big></big></H1><big><big><big><big><big><center><b><font color="ff0000">Gaming</center></font></b></big></big></big></big></big><br><center><img src="OCDC.png"></center><br><br><center><b><big><big><a href="MemberList.htm"><font color="ff0000">Member List</font></a></big></big></b></center><br><center><b><big><big><a href="Gallery.htm"><font color="ff0000">Gallery</font></a></big></big></b></center><br><center><b><big><big><a href="Announcements.htm"><font color="ff0000">Announcements</font></a></big></big></b></center><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><p><center><font color="ff0000">Time:</font><form name="d"><input type="text" size="8" name="d2" style="background-color: #000000; color: #FF0000"></form><font color="ff0000">TBags:</font><form name="bag"><input type="text" size="8" name="bag" id="bag" style="background-color: #000000; color: #FF0000" disabled></form></center><script>    
 var milisec=0
 var seconds=0
 document.d.d2.value='0'
@@ -17,9 +17,11 @@ document.bag.bag.value='0'
 function tbag(){
 bag+=1
 document.bag.bag.value=bag }
-function tea(){ document.bag.bag.value='0'
+function tea(){
+document.bag.bag.value='0'
 milisec=0
 seconds=0
-if (bag == 69){ window.location.href = 'innit.htm'; }
+if (bag == 69){
+window.location.href = 'Innit.htm'; }
 bag=0 }
 </script></p><center><img src="cupoftea.gif" width="240" height="240" onclick="var audio = new Audio('sound.mp3'); audio.play(); tbag()"></center><br><center><font color="ff0000"><a onclick="var audio = new Audio('sound2.mp3'); audio.play(); tea();">Would you like a cup of tea with that?</a></font></center></body></html>
